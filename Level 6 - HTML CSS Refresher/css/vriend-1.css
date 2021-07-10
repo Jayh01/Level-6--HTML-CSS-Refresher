@@ -1,0 +1,119 @@
+/*---------------------Algemeen Opstel site----------------------*/
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-image: url(vriend-1.jpg);
+}
+/*
+h2 {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}*/
+
+/*-----------------Einde Algemeen Opstel site--------------------*/
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(124px, 1fr));
+  grid-gap: 3px;
+  margin-left: 2%;
+  margin-right: 2%;
+}
+
+/*-------------------------vriend 1 gegevens---------------------*/
+.vriend-1-container {
+  border: 5px solid rgb(213 212 212);
+  border-radius: 10px;
+}
+.naam-foto-container {
+  display: grid;
+  align-items: center;
+  justify-content: flex-start;
+  grid-template-columns: repeat(5, 1fr);
+}
+.naam-foto-container p {
+  font-size: 36px;
+}
+.contact-naam {
+  width: 67%;
+  grid-column: 1/5;
+}
+
+.contact-naam h2 {
+  padding-left: 10px;
+  margin: 0px;
+  font-size: 50px;
+}
+.contact-naam p {
+  margin: 0px;
+  color: rgb(139, 139, 139);
+  font-size: 36px;
+  margin-left: 10px;
+}
+
+h2 {
+  padding-top: 0px;
+}
+.contact-foto {
+  margin: 24px;
+  width: 70%;
+  grid-column: 5/-1;
+}
+
+img.foto-1 {
+  display: flex;
+  width: 100%;
+}
+.vriendschap-verzoek-accepteren {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  border-top: 1px solid #d5d4d4;
+  padding-top: 8px;
+}
+
+.bericht-vriendschap-verzoek > p {
+  font-size: 33px;
+  padding: 12px;
+  color: #797979;
+  font-weight: 500;
+}
+
+/*-------------------Einde vriend 1  gegevens------------------*/
+
+/*----------------------vriend 2 gegevens----------------------*/
+.vriend-2-container {
+  border: 5px solid rgb(213 212 212);
+  border-radius: 10px;
+}
+img.foto-2 {
+  display: flex;
+  width: 80%;
+}
+.Decline {
+  width: 430px;
+  height: 115px;
+  background-color: rgb(255, 255, 255);
+  color: rgb(255, 0, 0);
+  border-radius: 15px;
+  border-color: rgb(255, 0, 0);
+  margin-bottom: 10px;
+  margin-left: -2px;
+  font-size: 34px;
+  border-end-start-radius: 0px;
+  border-start-start-radius: 0px;
+}
+.Approve {
+  width: 460px;
+  height: 115px;
+  background-color: rgb(255, 255, 255);
+  color: rgb(34, 207, 28);
+  border-radius: 15px;
+  border-top: 1px solid rgb(34, 207, 28);
+  border-right: 1px solid rgb(34, 207, 28);
+  border-bottom: 1px solid rgb(34, 207, 28);
+  border-left: 1px solid rgb(34, 207, 28);
+  margin-bottom: 10px;
+  font-size: 34px;
+  margin-right: -17px;
+}
+/*-------------------Einde vriend 2 gegevens-------------------*/
